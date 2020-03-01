@@ -8,8 +8,4 @@
  4. Implementujemy metody utworzone przez osobę B tak, aby przechodziły testy
  **/
 final class Algorithms {
-    public static int NWD(int num1,int num2) {}
-
-    public static int abs(int num1) {}
-
 }
