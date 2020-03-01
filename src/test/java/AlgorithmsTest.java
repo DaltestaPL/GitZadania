@@ -26,6 +26,7 @@ final class AlgorithmsTest {
         assertEquals(Algorithms.abs(1), 1);
         assertEquals(Algorithms.abs(0), 0);
         assertEquals(Algorithms.abs(-100), 100);
+
     }
 
 
