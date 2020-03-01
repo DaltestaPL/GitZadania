@@ -1,8 +1,15 @@
 /**
- * ... comment class...
- *
- * @author tomasz.wojtyra.tw@gmail.com
- * @since 01.03.2020
+ Używając stworzonej klasy Algorithms oraz klasy testowej napisz:
+ 1. Pustą definicję metody static int NWD(int,int) wraz z 4 poprawnymi testami do tej
+ metody
+ 2. Pustą definicję metody static int abs(int) wraz z 4 poprawnymi testami do tej metody
+ (metoda abs powinna zwracać wartość bezwzględną z liczby)
+ 3. Robimy commit, pull request, akceptujemy PR osoby B.
+ 4. Implementujemy metody utworzone przez osobę B tak, aby przechodziły testy
  **/
 final class Algorithms {
+    public static int NWD(int num1,int num2) {}
+
+    public static int abs(int num1) {}
+
 }
