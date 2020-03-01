@@ -14,15 +14,35 @@ final class Algorithms {
 
     static boolean isPalindrom(String s){
 
+        return true;
     }
 
     static OptionalLong sumof(List<Integer> integers){
-
+        OptionalLong optionalLong = OptionalLong.empty();
+        return optionalLong;
     }
     static int NWD(int i, int j) {
-
+        while (i!=j){
+            if(i>j){
+                i=i-j;
+            }
+            else {
+                j=j-i;
+            }
+        }
+        return i;
     }
     static int abs(int i) {
+        if(i<0){
+            i=i*(-1);
+        }
 
+        return i;
+    }
+    static long pow(int a, int b){
+        return 1L;
+    }
+    static long silnia(long n){
+        return 1L;
     }
 }
