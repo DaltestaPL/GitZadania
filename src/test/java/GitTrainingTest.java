@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 /**
  * ... comment class...
  *
@@ -5,4 +7,10 @@
  * @since 01.03.2020
  **/
 final class GitTrainingTest {
+
+    @Test
+    public void testHelloWorld(){
+
+    }
+
 }
