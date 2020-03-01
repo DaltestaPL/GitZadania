@@ -8,8 +8,4 @@ import org.junit.Test;
  **/
 final class GitTrainingTest {
 
-    @Test
-    void testWord(){
-
-    }
 }

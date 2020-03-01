@@ -4,8 +4,4 @@
  CTRL + k - tak wywołuje się commmity
  **/
 final class GitTraintng {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-
-    }
 }
