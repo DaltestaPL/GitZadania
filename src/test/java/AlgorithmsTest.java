@@ -33,8 +33,8 @@ final class AlgorithmsTest {
     }
     @Test
     void testNWD() {
-        assertEquals(Algorithms.NWD(12,6), 4);
-        assertEquals(Algorithms.NWD(24,32), 12);
+        assertEquals(Algorithms.NWD(12,6), 6);
+        assertEquals(Algorithms.NWD(24,32), 8);
         assertEquals(Algorithms.NWD(100,10), 10);
         assertEquals(Algorithms.NWD(1,1), 1);
     }
@@ -46,6 +46,19 @@ final class AlgorithmsTest {
         assertEquals(Algorithms.abs(0), 0);
         assertEquals(Algorithms.abs(-100), 100);
 
+    }
+    @Test
+    void testPow(){
+        assertEquals(Algorithms.pow(2,2), 4);
+        assertEquals(Algorithms.pow(2,3), 8);
+        assertEquals(Algorithms.pow(2,0), 1);
+
+    }
+    @Test
+    void testSilnia(){
+        assertEquals(Algorithms.silnia(5L), 120L);
+        assertEquals(Algorithms.silnia(0L), 1L);
+        assertNotNull(Algorithms.silnia(0L));
     }
 
 }
