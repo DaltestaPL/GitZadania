@@ -1,6 +1,9 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 /**
  Używając stworzonej klasy Algorithms oraz klasy testowej napisz:
@@ -12,6 +15,22 @@ import static org.junit.jupiter.api.Assertions.*;
  4. Implementujemy metody utworzone przez osobę B tak, aby przechodziły testy
  **/
 final class AlgorithmsTest {
+    @Test
+    void testSumOf(){
+        List<Integer> integers =List.of(1,2,3,5);
+        assertEquals(Algorithms.sumof(integers),10);
+        assertNotEquals(Algorithms.sumof(integers),11);
+        assertNotNull(Algorithms.sumof(integers));
+
+    }
+
+    @Test
+    void testPalindrom(){
+        String s ="Ada";
+        assertEquals(Algorithms.isPalindrom("Ada"), s);
+        assertNotEquals(Algorithms.isPalindrom("Ada"), "KAmil");
+        assertNotNull(Algorithms.isPalindrom("Ada"));
+    }
     @Test
     void testNWD() {
         assertEquals(Algorithms.NWD(12,6), 4);
